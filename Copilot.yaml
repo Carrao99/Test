@@ -1,0 +1,18 @@
+# Python code to build a bar plot
+# Save this as a separate Python script if needed
+import matplotlib.pyplot as plt
+
+# Data for the bar plot
+categories = ['A', 'B', 'C', 'D']
+values = [10, 15, 7, 12]
+
+# Create the bar plot
+plt.bar(categories, values)
+
+# Add labels and title
+plt.xlabel('Categories')
+plt.ylabel('Values')
+plt.title('Bar Plot Example')
+
+# Show the plot
+plt.show()
